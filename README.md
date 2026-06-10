@@ -1,10 +1,10 @@
-# 🏙️ UrbanAlert — Sistema de Registro de Ocorrências Urbanas
+#  UrbanAlert — Sistema de Registro de Ocorrências Urbanas
 
 Sistema web para registro, acompanhamento e gestão de ocorrências urbanas (denúncias), desenvolvido como projeto acadêmico.
 
 ---
 
-## 📋 Funcionalidades
+##  Funcionalidades
 
 - **Autenticação** — Cadastro, login e logout com JWT
 - **Três perfis** — Cidadão, Fiscal Municipal e Administrador
@@ -20,7 +20,7 @@ Sistema web para registro, acompanhamento e gestão de ocorrências urbanas (den
 
 ---
 
-## 🗂️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 urbanalert/
@@ -53,7 +53,7 @@ urbanalert/
 
 ---
 
-## 🗄️ Banco de Dados — Entidades
+## Banco de Dados — Entidades
 
 | Tabela | Descrição |
 |---|---|
@@ -66,7 +66,7 @@ urbanalert/
 
 ---
 
-## 🚀 Como Rodar Localmente
+##  Como Rodar Localmente
 
 ### Pré-requisitos
 - [Node.js](https://nodejs.org/) v18+
@@ -147,58 +147,22 @@ Abra o arquivo `frontend/index.html` no navegador, ou acesse **http://localhost:
 
 ---
 
-## 👥 Perfis de Acesso
+##  Perfis de Acesso
 
 | Funcionalidade | Cidadão | Fiscal | Admin |
 |---|:---:|:---:|:---:|
-| Registrar ocorrência | ✅ | ✅ | ✅ |
-| Ver próprias ocorrências | ✅ | ✅ | ✅ |
-| Ver todas as ocorrências | ❌ | ✅ | ✅ |
-| Atualizar status | ❌ | ✅ | ✅ |
-| Gerenciar categorias | ❌ | ❌ | ✅ |
-| Gerenciar usuários | ❌ | ❌ | ✅ |
-| Ver mapa de calor | ❌ | ✅ | ✅ |
-| Ver relatórios | ❌ | ❌ | ✅ |
+| Registrar ocorrência 
+| Ver próprias ocorrências 
+| Ver todas as ocorrências 
+| Atualizar status 
+| Gerenciar categorias 
+| Gerenciar usuários 
+| Ver mapa de calor 
+| Ver relatórios 
 
 ---
 
-## 💡 Sugestões de Commits para o Grupo
-
-Cada integrante deve fazer **no mínimo 5 commits relevantes**. Exemplos:
-
-```bash
-# Integrante 1 — Backend Auth
-git commit -m "feat: implementa rota de registro de usuários com bcrypt"
-git commit -m "feat: adiciona middleware de autenticação JWT"
-git commit -m "feat: cria endpoint de login com validação"
-git commit -m "fix: corrige validação de e-mail duplicado no registro"
-git commit -m "feat: implementa alteração de senha com verificação"
-
-# Integrante 2 — Backend Ocorrências
-git commit -m "feat: cria controller de ocorrências com paginação"
-git commit -m "feat: implementa filtros por status, categoria e busca"
-git commit -m "feat: adiciona endpoint de comentários com notificação"
-git commit -m "feat: cria dashboard com agregações SQL"
-git commit -m "fix: corrige permissão de cidadão ao editar ocorrência"
-
-# Integrante 3 — Banco de Dados
-git commit -m "feat: cria schema completo do banco PostgreSQL"
-git commit -m "feat: adiciona trigger de updated_at nas tabelas"
-git commit -m "feat: cria índices de performance nas FK"
-git commit -m "feat: adiciona seed com dados iniciais e categorias"
-git commit -m "docs: documenta entidades e relacionamentos no README"
-
-# Integrante 4 — Frontend
-git commit -m "feat: implementa tela de login e cadastro"
-git commit -m "feat: cria dashboard com cards de estatísticas"
-git commit -m "feat: implementa CRUD de ocorrências com filtros"
-git commit -m "feat: adiciona paginação na listagem de ocorrências"
-git commit -m "feat: implementa modal de detalhes com comentários"
-```
-
----
-
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Camada | Tecnologia |
 |---|---|
@@ -210,17 +174,16 @@ git commit -m "feat: implementa modal de detalhes com comentários"
 
 ---
 
-## 👨‍💻 Integrantes do Grupo
+##  Integrantes do Grupo
 
-| Nome | GitHub | Responsabilidade |
+| Nome | GitHub |
 |---|---|---|
-| Nome 1 | @usuario1 | Backend - Auth |
-| Nome 2 | @usuario2 | Backend - Ocorrências |
-| Nome 3 | @usuario3 | Banco de Dados |
-| Nome 4 | @usuario4 | Frontend |
-
+| Nome 1 | jhonnatas amaro
+| Nome 2 | karlos eduardo
+| Nome 3 | ywandson berlamino
+| Nome 4 | natam
 ---
 
-## 📄 Licença
+##  Licença
 
 Projeto acadêmico — uso educacional.
